@@ -18,7 +18,6 @@ pipeline {
                steps {
                     echo 'excuting gradle....'
                       sh './gradlew -v'
-
                     }
                }
           } 
