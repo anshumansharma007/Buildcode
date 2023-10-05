@@ -9,9 +9,7 @@ pipeline {
                     }
                }
           } 
-
-
-      stage ("run frontend"){
+          stage ("run backend"){
                steps {
                     echo 'excuting gradle....'
                     withgradle() {
@@ -21,3 +19,5 @@ pipeline {
           } 
      }
 }
+
+
